@@ -9,15 +9,15 @@ Aintek.xyzが仕事を進める上で必要な業務フローや意思決定フ�
 
 # RoadMap
 
-- []アプリケーション開発基礎
-- []セキュリティ基礎
-- []ネットワーク基礎
-- []TDD
-- []最適化
-- []設計
-  - [] アプリケーションインターフェース設計
-  - [] アプリケーションアーキテクチャ設計
-  - [] ソフトウェアアーキテクチャ設計
+- [] アプリケーション開発基礎(Application development basics)
+- [] セキュリティ基礎(Security basics)
+- [] ネットワーク基礎(Network basics)
+- [] 最適化(Optimization)
+- [] 設計(Design)
+  - [] アプリケーションインターフェース設計(Application interface design)
+  - [] アプリケーションアーキテクチャ設計(Application architecture design)
+  - [] ソフトウェアアーキテクチャ設計(Software architecture design)
+  - [] TDD(Test driven design)
 
 # Contributing
 
