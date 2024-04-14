@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-14T04:55:53.879Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="IUdgLwINNhMRIKPSNkXU" version="24.2.0" type="device">
+<mxfile host="app.diagrams.net" modified="2024-04-14T05:05:21.460Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="0VqTz1IRPG8LrWoNS0d6" version="24.2.0" type="device">
   <diagram id="4EysrIUiIzhdOBFNZJKH" name="Page-1">
     <mxGraphModel dx="2074" dy="1121" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -39,21 +39,21 @@
         <mxCell id="CgFyjtPTiPq2iYC9rme7-20" value="計測:&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;ベンチマークを実行し性能を測る。&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="163.5" y="290" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CgFyjtPTiPq2iYC9rme7-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="CgFyjtPTiPq2iYC9rme7-22" target="CgFyjtPTiPq2iYC9rme7-8" edge="1">
+        <mxCell id="CgFyjtPTiPq2iYC9rme7-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="1" source="CgFyjtPTiPq2iYC9rme7-22" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="720" y="540" />
-              <mxPoint x="720" y="80" />
+              <mxPoint x="560" y="540" />
+              <mxPoint x="560" y="230" />
             </Array>
-            <mxPoint x="580" y="610" as="sourcePoint" />
-            <mxPoint x="404" y="80" as="targetPoint" />
+            <mxPoint x="401" y="560" as="sourcePoint" />
+            <mxPoint x="400" y="230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="CgFyjtPTiPq2iYC9rme7-22" value="評価:&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;性能要件を満たすかを確認する。&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;性能要件を満たさない場合はフィードバックループを実行する&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="166" y="510" width="235" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CgFyjtPTiPq2iYC9rme7-23" value="フィードバックループ:&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;性能要件を満たすように&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;- ボトルネックの発見&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;- 最適化のレベルの選択&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;- 最適化実装&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;を行う。&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;※レベルの選択とは、システムアーキテクチャレベルの最適化なのか、アルゴリズムとデータ構造レベルか、実装レベルか、ハードウェアレベルかのどれを選択するかということ。&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="460" y="355" width="290" height="160" as="geometry" />
+          <mxGeometry x="420" y="355" width="290" height="160" as="geometry" />
         </mxCell>
         <mxCell id="CgFyjtPTiPq2iYC9rme7-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="CgFyjtPTiPq2iYC9rme7-9" target="CgFyjtPTiPq2iYC9rme7-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -77,7 +77,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CgFyjtPTiPq2iYC9rme7-16" value="フィードバックループ:&lt;br&gt;テストがパスするように設計/実装/リファクタリングする。" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="401" y="130" width="290" height="40" as="geometry" />
+          <mxGeometry x="414" y="130" width="290" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
